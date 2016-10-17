@@ -102,6 +102,7 @@ footer p {
 }
 #head {
   text-align: center;
+  background-color: red;
 }
 #navBar {
     list-style-type: none;
