@@ -100,10 +100,10 @@ p {
 footer p {
   color: #f2f2f2;
 }
-
+#head {
+  text-align: center;
+}
 #navBar {
-    margin-left: auto;
-    margin-right: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
