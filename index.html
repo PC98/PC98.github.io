@@ -1,93 +1,125 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Prabhav Chawla : aka PC">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Prabhav Chawla</title>
-    <script type="text/javascript">
-    function show_more ( d ) {
-    if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; 
-    window.location = '#HIDDEN';}
-else { document.getElementById(d).style.display = "none"; }
-}
-</script>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-     <header class="inner">
-         <!-- <a id="forkme_banner" href="https://github.com/PC98">View on GitHub</a> -->
-
-          <h1 id="project_title">Prabhav Chawla</h1>
-          <h2 id="project_tagline">Forever hungry. Forever foolish.</h2>
-
-        </header>
-        <div id="items">
-        <ul id="navBar">
-            <li><a href="#ABOUT">About</a></li>
-            <li><a href="#BIO">Bio</a></li>
-            <li><a href="#WORKS">Sample Works</a></li>
-            <li><a href="#RESUME">Resume</a></li>
-            <li><a href="#CONTACT">Contact</a></li>
-          </ul>
-          </div>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-<h3>
-<a name="ABOUT"></a>
-<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h3>
-
-<div class="highlight highlight-source-python"><pre><span class="pl-c1">print</span>(<span class="pl-s"><span class="pl-pds">'</span>Hello World!<span class="pl-pds">'</span></span>)</pre></div>
-
-<img src="images/headShot.jpg" height="431.14" width="318.85" style="display: block; margin: auto; border: 0.5px solid #021a40; margin-top: 5px;"/>
-<p>I am a rising first year CS undergrad at Georgia Tech, originally from Gurgaon, India. I am a tech geek at heart and I love spending my weekends at either hackathons or Model UN conferences. Currently, I am exploring the many paradigms of Machine Learning through Andrew Ng's course and working on an iOS application - <a href="javascript:show_more('more')">
-SafeWalk.
-</a> </p>
-<a name="HIDDEN"></a>
-<p id="more" style="display:none;">SafeWalk uses crime logs available on 
-GTPD's website and the Google Maps API to find the safest way to walk
-between any two points on campus. See GitHub <a href="https://github.com/PC98/HackGT_SafeWalk">repository.</a>
-  <img src="images/safewalk.PNG" height="528px" width="320px" style="display: block; margin: auto;"/></p>
-  <h3>
-  <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="description" content="Prabhav Chawla : aka PC">
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <title>Prabhav Chawla</title>
+        <script src="javascripts/main.js"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <div id="header_wrap" class="outer">
+            <header class="inner">
+                <h1 id="project_title">Prabhav Chawla</h1>
+                <h2 id="project_tagline">Forever hungry. Forever foolish.</h2>
+            </header>
+            <div id="items">
+                <ul id="navBar">
+                    <li><a href="#ABOUT">About</a></li>
+                    <li><a href="#BIO">Bio</a></li>
+                    <li><a href="#WORKS">Sample Works</a></li>
+                    <li><a href="#RESUME">Resume</a></li>
+                    <li><a href="#CONTACT">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- MAIN CONTENT -->
+        <div id="main_content_wrap" class="outer">
+            <section id="main_content" class="inner">
+                <h3>
+                    <a name="ABOUT"></a>
+                    <a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About
+                </h3>
+                <div class="highlight highlight-source-python">
+                    <pre><span class="pl-c1">print</span>(<span class="pl-s"><span class="pl-pds">'</span>Hello World!<span class="pl-pds">'</span></span>)</pre>
+                </div>
+                <img src="images/headShot.jpg" height="431.14" width="318.85" style="display: block; margin: auto; border: 0.5px solid #021a40; margin-top: 5px;"/>
+                <p>I am a rising first year CS undergrad at Georgia Tech, originally from Gurgaon, India. I am a tech geek at heart and I love spending my weekends at either hackathons or Model UN conferences. Currently, I am exploring the many paradigms of Machine Learning through Andrew Ng's course and working on an iOS application - <a href="javascript:show_more('more','#HIDDEN1')">
+                    SafeWalk.
+                    </a> 
+                </p>
+                <a name="HIDDEN1"></a>
+                <p id="more" style="display:none;">SafeWalk uses crime logs available on 
+                    GTPD's website and the Google Maps API to find the safest way to walk
+                    between any two points on campus. See GitHub <a href="https://github.com/PC98/HackGT_SafeWalk">repository.</a>
+                    <img src="images/safewalk.PNG" height="528px" width="320px" style="display: block; margin: auto; border: 0.5px solid #021a40;"/>
+                </p>
+                <h3>
+                    <a name="BIO"></a>
+                    <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bio
+                </h3>
+                <table border= "1px solid #021a40;" CELLPADDING="2;" align="center">
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>Prabhav Chawla</td>
+                        </tr>
+                        <tr>
+                            <td>Education</td>
+                            <td>Bachelor of Computer Science, Georgia Institute of Technology <em>(Attending)</em></td>
+                        </tr>
+                        <tr>
+                            <td>Interests</td>
+                            <td><a href="https://www.codechef.com/users/pc_1998">Competitive Programming</a>, Model UN</td>
+                        </tr>
+                        <tr>
+                            <td>Skills</td>
+                            <td><code>Java</code><code>Python</code><code>HTML & CSS</code><code>JavaScript</code><code>MATLAB</code></td>
+                        </tr>
+                        <tr>
+                            <td>Clubs</td>
+                            <td>The Agency - AI club, SGA IT Development Committee</td>
+                        </tr>
+                        <tr>
+                            <td>Goals</td>
+                            <td>Master Python by next Spring, Land an internship for Summer 2017</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>
+                    <a name="WORKS"></a>
+                    <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sample Works
+                </h3>
+                <p><a href="javascript:show_more('elephant', '#HIDDEN2')">
+                    Infra-Elephant Project
+                    </a>
+                </p>
+                <a name="HIDDEN2"></a>
+                <p id="elephant" style="display:none;">Created a Java application to emit infra-sonic sound waves which repel elephants near railway tracks, thereby preventing collisions between trains and elephants.<br>See GitHub <a href="https://github.com/AhanM/InfraSound-Generator">repository.</a><br>See <a href="docs/Elephant.pdf" target="_blank">research paper.</a>
+                </p>
+                <p><a href="javascript:show_more('medcloud', '#HIDDEN3')">
+                    MedCloud
+                    </a>
+                </p>
+                <a name="HIDDEN3"></a>
+                <p id="medcloud" style="display:none;">Implemented a cloud based solution for storing medical and biometric records, which can be accessed by
+                    hospitals to provide appropriate and speedy treatment to patients.<br>View<a href="docs/medcloud/index.html" target="_blank"> sample layout.</a>
+                </p>
+                <p>For more projects,
+                <header class="inner"><a id="forkme_banner" href="https://github.com/PC98">Checkout my GitHub</a></header>
+                </p>
+                <h3>
+                    <a name="RESUME"></a>
+                    <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resume
+                </h3>
+                <p>
+                <header class="inner"><a id="button" href="docs/resume.pdf" target="_blank">Download Resume</a></header>
+                </p>
+                <h3>
+                    <a name="CONTACT"></a>
+                    <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact
+                </h3>
+                <p>Prabhav Chawla <a style="margin-left: 8px;" href="mailto:pc_1998@gatech.edu" target="_top"><i style="font-size:24px" class="fa">&#xf0e0;</i></a><a style="margin-left: 10px;" href="https://www.linkedin.com/in/pc1998"><i class="fa fa-linkedin" aria-hidden="true" style="font-size:24px;"></i></a></p>
+            </section>
+        </div>
+        <!-- FOOTER  -->
+        <div id="footer_wrap" class="outer">
+            <footer class="inner">
+                <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+            </footer>
+        </div>
+    </body>
 </html>
