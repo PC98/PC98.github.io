@@ -14,15 +14,14 @@
         <div id="header_wrap" class="outer">
             <header class="inner">
                 <h1 id="project_title">Prabhav Chawla</h1>
-                <h2 id="project_tagline">Forever hungry. Forever foolish.</h2>
             </header>
             <div id="items">
                 <ul id="navBar">
-                    <li><a href="#ABOUT">About</a></li>
-                    <li><a href="#BIO">Bio</a></li>
-                    <li><a href="#WORKS">Sample Works</a></li>
-                    <li><a href="#RESUME">Resume</a></li>
-                    <li><a href="#CONTACT">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#works">Sample Works</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -30,7 +29,6 @@
         <div id="main_content_wrap" class="outer">
             <section id="main_content" class="inner">
                 <h3>
-                    <a name="ABOUT"></a>
                     <a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About
                 </h3>
                 <div class="highlight highlight-source-python">
@@ -39,8 +37,7 @@
                 <img src="images/pic.JPG" height="352" width="408" style="display: block; margin: auto; border: 0.5px solid #021a40; margin-top: 5px;"/>
                 <p>I am a rising second year CS undergrad at <a href="http://www.gatech.edu/" target="_blank">Georgia Tech</a>, originally from Gurgaon, India. Currently, I am busy with my tutoring job at the <a href="http://success.gatech.edu/" target="_blank">Center for Academic Success</a> and with Udacity's <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004" target="_blank">Full Stack Web Developer Nanodegree</a>.
                 <h3>
-                    <a name="BIO"></a>
-                    <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bio
+                    <a id="bio" class="anchor" href="#bio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bio
                 </h3>
                 <table border= "1px solid #021a40;" CELLPADDING="2;" align="center">
                     <tbody>
@@ -67,32 +64,43 @@
                     </tbody>
                 </table>
                 <h3>
-                    <a name="WORKS"></a>
-                    <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sample Works
+                    <a id="works" class="anchor" href="#works" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sample Works
                 </h3>
-                <a href="javascript:show_more('rune','#HIDDEN5')">
-                    Runestone Interactive Project
+                <a href="javascript:show_more('tsquare','#tsquare')">
+                    Tsquare-Gradebook App
                     </a>
-                <a name="HIDDEN5"></a>
-                <p id="rune" style="display:none;">The <a href="http://runestoneinteractive.org/" target="_blank">Runestone project</a> aims to provide interactive, accessible and free eBooks to high-school students interested in learning CS. I worked on this project as a REU participant at the School of Interactive Computing. My responsibilities included contributing to the <a href="https://github.com/PC98/RunestoneComponents" target="_blank">Runestone Components repository</a> as a developer by finding bugs, improving UI/UX and making the eBooks more accessible to students with disabilities. I also write content for the <a href="https://github.com/CSLearning4U/StudentCSP" target="_blank">StudentCSP eBook</a> - a book for students preparing for College Board's AP CSP exam.
+                <a name="tsquare"></a>
+                <p id="tsquare" style="display:none;">Tsquare is a portal that classes at Tech use for releasing grades, announcements, homeworks etc. Loading Tsquare on a mobile browser is a bad experience - the UI is plain HTML and the data loads slowly. Therefore I decided to make an iOS app that allows me to quickly view grades posted on Tsquare in a nice, user-friendly UI. What makes this project challenging is the fact that I don't have access to Tsquare's API, so my app must scrape raw HTML using Swift. I also managed to integrate the authentication process with Georgia Tech's CAS (which on it's own is easy to implement) and Duo's two-factor auth (this is/was tricky). While the app isn't complete yet, it is a work in progress. You can find my code for it <a href="https://github.com/PC98/Tsquare-Gradebook" target="_blank">here.</a>
                 </p>
-                <p><a href="javascript:show_more('halite','#HIDDEN6')">
+                <p><a href="javascript:show_more('runestone','#runestone')">
+                    Runestone Interactive Project
+                    </a></p>
+                <a name="runestone"></a>
+                <p id="runestone" style="display:none;">The <a href="http://runestoneinteractive.org/" target="_blank">Runestone project</a> aims to provide interactive, accessible and free eBooks to high-school students interested in learning CS. I worked on this project as a REU participant at the School of Interactive Computing. My responsibilities included contributing to the <a href="https://github.com/PC98/RunestoneComponents" target="_blank">Runestone Components repository</a> as a developer by finding bugs, improving UI/UX and making the eBooks more accessible to students with disabilities. I also wrote content for the <a href="https://github.com/CSLearning4U/StudentCSP" target="_blank">StudentCSP eBook</a> - a book for students preparing for College Board's AP CSP exam.
+                </p>
+                <p><a href="javascript:show_more('emojis','#emojis')">
+                    Face2Emojis
+                    </a></p>
+                <a name="emojis"></a>
+                <p id="emojis" style="display:none;">For Georgia Tech's first ever Meme-a-thon (a meme inspired Hackathon), I coded a web app that uses OpenCV to detect and replace faces in a user uploaded image with random emojis. I used PHP on the backend, and Python Imaging Library to deal with the actual logic. You can find my code <a href="https://github.com/PC98/Meme-a-thon" target="_blank">here.</a>
+                </p>
+                <p><a href="javascript:show_more('halite','#halite')">
                     Halite Game Bot
                     </a></p>
-                <a name="HIDDEN6"></a>
+                <a name="halite"></a>
                 <p id="halite" style="display:none;"><a href="https://halite.io/" target="_blank">Halite</a> is an AI programming challenge in which players control a bot using a programming language of their choice to fight other bots on a 2D grid. As part of the Agency's Spring 2017 project, I wrote a heuristics-based bot in Python and helped in the deployment of a tournament structure made using Django to AWS. My bot did pretty well, I finished #3 on the leader-board.</a><br>You can find the code for my bot <a href="https://github.com/gtagency/HALite_9000/tree/master/bots/prabhav-bot" target="_blank">here.</a>
                 </p>
-                <p><a href="javascript:show_more('analogy','#HIDDEN7')">
+                <p><a href="javascript:show_more('analogy','#analogy')">
                     Analogy Questions Solver
                     </a></p>
-                <a name="HIDDEN7"></a>
+                <a name="analogy"></a>
                 <p id="analogy" style="display:none;">As part of the Agency's Fall 2016 project, I trained a word2vec model using the <a href="https://radimrehurek.com/gensim/models/word2vec.html" target="_blank">Gensim library</a> with corpuses obtained from Python’s NLTK library to understand relationships between different words. To test the model, I extracted a handful of simple analogy question from a document using regex. The model answered about 75% of the questions correctly. You can find all the code for this project <a href="https://github.com/gtagency/newage-lateral-piping/tree/master/word2vec" target="_blank">here.</a>
                 </p>
-                <p><a href="javascript:show_more('more','#HIDDEN1')">
+                <p><a href="javascript:show_more('more','#safewalk')">
                     SafeWalk
                     </a></p>
                 </p>
-                <a name="HIDDEN1"></a>
+                <a name="safewalk"></a>
                 <p id="more" style="display:none;">SafeWalk is an iOS application which uses crime logs available on 
                     GTPD's website and the Google Maps API to find the safest way to walk
                     between any two points on campus. I hope to eventually expand the application
@@ -100,33 +108,31 @@
                     can be used by foreign tourists to identify areas to avoid and can be
                     used to make last-mile transit safer.<br>See GitHub <a href="https://github.com/PC98/HackGT_SafeWalk" target="_blank">repository.</a>
                 </p>
-                 <p><a href="javascript:show_more('dismap', '#HIDDEN3')">
+                 <p><a href="javascript:show_more('dismap', '#dismap')">
                     DisMap
                     </a>
                 </p>
-                <a name="HIDDEN3"></a>
+                <a name="dismap"></a>
                 <p id="dismap" style="display:none;">DisMap is an Android application which gives users the ability to avoid businesses with recorded incidents of racism, sexism, or otherwise intolerable behavior. It gives public places more transparency to allow users the right to be safe and/or avoid areas of conflict without having to figure it out the hard way.<br>Learn more about <a href = "http://dismap.org" target="_blank">DisMap.</a><br>See Github <a href="https://github.com/carlynnf/HackNC2016" target="_blank"> repository.</a>
                 </p>
-                <p><a href="javascript:show_more('elephant', '#HIDDEN2')">
+                <p><a href="javascript:show_more('elephant', '#elephant')">
                     Infra-Elephant Project
                     </a>
                 </p>
-                <a name="HIDDEN2"></a>
+                <a name="elephant"></a>
                 <p id="elephant" style="display:none;">I created a Java application to emit infra-sonic sound waves which repel elephants near railway tracks, thereby preventing collisions between trains and elephants.<br>See GitHub <a href="https://github.com/AhanM/InfraSound-Generator" target="_blank">repository.</a><br>See <a href="docs/Elephant.pdf" target="_blank">research paper.</a>
                 </p>
                 <p>For more projects,
                 <header class="inner"><a id="forkme_banner" href="https://github.com/PC98" target="_blank">Checkout my GitHub</a></header>
                 </p>
                 <h3>
-                    <a name="RESUME"></a>
-                    <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resume
+                    <a id="resume" class="anchor" href="#resume" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resume
                 </h3>
                 <p>
                 <header class="inner"><a id="button" href="docs/resume.pdf" target="_blank">Download Resume</a></header>
                 </p>
                 <h3>
-                    <a name="CONTACT"></a>
-                    <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact
+                    <a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact
                 </h3>
                 <a style="margin-left: 8px;" href="mailto:pc_1998@gatech.edu" target="_top"><i style="font-size:24px" class="fa">&#xf0e0;</i></a><a style="margin-left: 10px;" href="https://www.linkedin.com/in/pc1998" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="font-size:24px;"></i></a>
             </section>
